@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <!--<script type="text/javascript" src="../jquery-1.8.3.min.js"></script>-->
+    <script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.10.2/jquery-1.10.2.js"></script>
+    <style type="text/css">
+        .container{
+            display: grid;
+            grid-template-columns: 100px 1fr 100px;
+            grid-template-rows: 50px 300px 50px;
+        }
+        .header{
+            grid-area: 1/1/2/4;
+        }
+        .footer{
+            grid-area: 3/1/4/4;
+        }
+        .header{
+            background: lightsalmon;
+        }
+        .left{
+            background: lightgreen;
+        }
+        .body{
+            background: lightslategray;
+
+        }
+        .right{
+            background: lightyellow;
+        }
+        .footer{
+            background: yellowgreen;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header"></div>
+    <div class="left"></div>
+    <div class="body"></div>
+    <div class="right"></div>
+    <div class="footer"></div>
+</div>
+</body>
+</html>
